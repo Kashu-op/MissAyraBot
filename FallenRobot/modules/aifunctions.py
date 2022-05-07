@@ -1,5 +1,5 @@
 # 🙈 Give me ⭐️ before kanging code
-# © @AnonymousBoy1025 🌚
+# © @Mr_Agora 🌚
 
 import requests
 url = "https://iamai.p.rapidapi.com/ask"
@@ -29,7 +29,7 @@ async def hmm(event):
   lodu = response.json()
   result = (lodu['message']['text'])
   if "no no" in result:
-   pro = "I am fairly found and I was made by @anonymous_was_bot."
+   pro = "I am fairly found and I was made by @Mr_Agora."
    try:
       async with telethn.action(event.chat_id, 'typing'):
            await asyncio.sleep(2)
@@ -37,7 +37,7 @@ async def hmm(event):
    except CFError as e:
            print(e)
   elif "ann" in result:
-   pro = "My name is Fallen"
+   pro = "My name is Agora"
    try:
       async with telethn.action(event.chat_id, 'typing'):
            await asyncio.sleep(2)
