@@ -11,21 +11,21 @@ from FallenRobot import telethn as tbot
 
 
 PHOTO = [
-    "https://telegra.ph/file/315d78ebea36b0a1b3435.jpg",
-    "https://telegra.ph/file/7bd111132fce009e4605e.jpg",
-    "https://telegra.ph/file/804a5f9a3c32bac1ae15c.jpg",
-    "https://telegra.ph/file/43edaa8914b7ce8998336.jpg",
-    "https://telegra.ph/file/abed92d9b3ff409793324.jpg",
+    "https://te.legra.ph/file/5481b59e4a31fca4499fe.jpg",
+    "https://te.legra.ph/file/85a67867942ff92c5622b.jpg",
+    "https://te.legra.ph/file/7a81bab81fb73527b2ad3.jpg",
+    "https://te.legra.ph/file/66091a9f4514e8b626ac5.jpg",
+    "https://te.legra.ph/file/be5d28bb10a47ce8e6060.jpg",
 ]
 
 @register(pattern=("/alive"))
 async def awake(event):
-  TEXT = f"**ʜᴇʏ​ [{event.sender.first_name}](tg://user?id={event.sender.id}),\n\nɪ ᴀᴍ ꜰᴀʟʟᴇɴ ✘ ʀᴏʙᴏᴛ​~🇮🇩**\n━━━━━━━━━━━━━━━━━━━\n\n"
-  TEXT += f"» **ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ : [𝝙𝗡𝗢𝗡𝗬𝗠𝗢𝗨𝗦](https://t.me/anonymous_was_bot)** \n\n"
+  TEXT = f"**ʜᴇʏ​ [{event.sender.first_name}](tg://user?id={event.sender.id}),\n\nɪ ᴀᴍ ᴀɢᴏʀᴀ ʙᴏᴛ​~🕉️**\n━━━━━━━━━━━━━━━━━━━\n\n"
+  TEXT += f"» **ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ : [Λ𝖦ՕᏒΛ](https://t.me/mr_agora)** \n\n"
   TEXT += f"» **ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ :** `{telever}` \n\n"
   TEXT += f"» **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{tlhver}` \n\n"
   TEXT += f"» **ᴘʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ :** `{pyrover}` \n━━━━━━━━━━━━━━━━━\n\n"
-  BUTTON = [[Button.url("ʜᴇʟᴘ​", "https://t.me/FallenXRobot?start=help"), Button.url("sᴜᴘᴘᴏʀᴛ​", "https://t.me/DevilsHeavenMF")]]
+  BUTTON = [[Button.url("ʜᴇʟᴘ​", "https://t.me/agora_robot?start=help"), Button.url("sᴜᴘᴘᴏʀᴛ​", "https://t.me/karunada_kings_and_queens")]]
   ran = random.choice(PHOTO)
   await tbot.send_file(event.chat_id, ran, caption=TEXT,  buttons=BUTTON)
 
