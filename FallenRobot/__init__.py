@@ -176,8 +176,8 @@ else:
 
 DRAGONS.add(OWNER_ID)
 DEV_USERS.add(OWNER_ID)
-DEV_USERS.add(1356469075)
-DEV_USERS.add(2142595466)
+DEV_USERS.add(5272015055)
+DEV_USERS.add(5030410431)
 
 if not SPAMWATCH_API:
     sw = None
@@ -193,7 +193,7 @@ else:
 updater = tg.Updater(TOKEN, workers=WORKERS, use_context=True)
 telethn = TelegramClient("fallen", API_ID, API_HASH)
 
-pbot = Client("fallenrobot", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN)
+pbot = Client("agora_robot", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN)
 dispatcher = updater.dispatcher
 aiohttpsession = ClientSession()
 
