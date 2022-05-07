@@ -1,7 +1,7 @@
 {
-      "name": "Fallen Robot",
+      "name": "AGORA BOT",
       "description": "Telegram Group Management Bot.",
-      "logo": "https://telegra.ph/file/72e135da30a1a349f2844.jpg",
+      "logo": "https://te.legra.ph/file/5481b59e4a31fca4499fe.jpg",
       "keywords": [
          "telegram",
          "sexy",
@@ -9,7 +9,7 @@
          "manager",
          "Fallen"
       ],   
-   "repository": "https://github.com/AnonymousBoy1025/FallenRobot",
+   "repository": "https://github.com/MR-KANNADIGA/KING-BOT",
    "addons": [
       {
          "options": {
@@ -27,12 +27,12 @@
       "API_ID": {
          "description": "Get this value from my.telegram.org/apps.",
          "required": true,
-         "value": ""
+         "value": "12787577"
       },
       "API_HASH": {
          "description": "Get this value from my.telegram.org/apps.",
          "required": true,
-         "value": ""
+         "value": "d30cef43991a144be80615919bfcfc6c"
       },    
       "SQLALCHEMY_DATABASE_URI": {
          "description": "Your postgres sql db, Leave this field empty if you don't have one.",
@@ -42,7 +42,7 @@
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
          "required": true,
-         "value": "1356469075"
+         "value": "5272015055"
       },
       "HEROKU_API_KEY": {
         "description": "Your Heroku API key, get it from 'https://dashboard.heroku.com/account'",
@@ -54,27 +54,27 @@
       },
       "OWNER_USERNAME": {
          "description": "Your username without the @",
-         "value": "anonymous_was_bot"
+         "value": "Mr_Agora"
       },
       "SUPPORT_CHAT": {
          "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to Fallen Support than consider you made an enemy.",
          "required": true,
-         "value": "DevilsHeavenMF"
+         "value": "AgoraEmpire"
       },
       "MONGO_DB_URI": {
          "description": "Required for database connections.",
          "required": true,
-         "value": ""
+         "value": "mongodb+srv://musicbottg:1sujal1234@musicbot.czgpt.mongodb.net/test"
       },
       "EVENT_LOGS": {
          "description": "Event logs channel to note down important bot level events, recommend to make this public. ex: '-123456'",
          "required": true,
-         "value": "-1001689952468"
+         "value": "-1001570490489"
       },
       "JOIN_LOGGER": {
          "description": "A channel where bot will print who added it to what group, useful during debugging or spam handling.",
          "required": true,
-         "value": "-1001689952468"
+         "value": "-1001570490489"
       },      
       "CASH_API_KEY": {
          "description": "Required for currency converter. Get yours from https://www.alphavantage.co/support/#api-key",
@@ -94,7 +94,7 @@
       "DEV_USERS": {
          "description": "ID of users who are Devs of your bot (can use /py etc.). If you are a noob and would come and bother Fallen Support then keep the current ID's here at they are and add yours.",
          "required": false,
-         "value": "1356469075"
+         "value": "5272015055"
       },
       "sw_api": {
          "description": "Spamwatch API Token, Get one from @SpamWatchBot.",
@@ -108,22 +108,22 @@
       "DRAGONS": {
          "description": "A space separated list of user IDs who you want to assign as sudo users.",
          "required": false,
-         "value": "1356469075"
+         "value": "5272015055"
       },
       "DEMONS": {
          "description": "A space separated list of user IDs who you wanna assign as support users(gban perms only).",
          "required": false,
-         "value": "1356469075"
+         "value": "5272015055"
       },
       "TIGERS": {
          "description": "A space separated list of user IDs who you wanna assign as tiger users.",
          "required": false,
-         "value": "1356469075"
+         "value": "5272015055"
       },
       "WOLVES": {
          "description": "A space separated list of user IDs who you want to assign as whitelisted - can't be banned with your bot.",
          "required": false,
-         "value": "1356469075"
+         "value": "5272015055"
       },
       "ENV": {
          "description": "Setting this to ANYTHING will enable environment variables. Leave it as it is",
