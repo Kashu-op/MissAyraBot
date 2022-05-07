@@ -7,15 +7,15 @@ from pyrogram import filters
 from FallenRobot import pbot as client
 
 
-ANON = "https://telegra.ph/file/7bd111132fce009e4605e.jpg"
+ANON = "https://te.legra.ph/file/5481b59e4a31fca4499fe.jpg"
 
 @client.on_message(filters.command(["repo", "source"]))
 async def repo(client, message):
     await message.reply_photo(
         photo=ANON,
-        caption=f"""**ʜᴇʏ​ {message.from_user.mention()},\n\nɪ ᴀᴍ [ꜰᴀʟʟᴇɴ ✘ ʀᴏʙᴏᴛ-🇮🇩](t.me/FallenXRobot)**
+        caption=f"""**ʜᴇʏ​ {message.from_user.mention()},\n\nɪ ᴀᴍ [ᴀɢᴏʀᴀ ʙᴏᴛ-🇮🇩](t.me/Agora_robot)**
 
-**» ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ :** [𝝙𝗡𝗢𝗡𝗬𝗠𝗢𝗨𝗦](tg://user?id=1356469075)
+**» ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ :** [Λ𝖦ՕᏒΛ](tg://user?id=5272015055)
 **» ᴩʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{y()}`
 **» ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ :** `{o}` 
 **» ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{s}` 
@@ -29,7 +29,7 @@ async def repo(client, message):
                     InlineKeyboardButton(
                         "• ᴏᴡɴᴇʀ •", url="tg://user?id=1356469075"), 
                     InlineKeyboardButton(
-                        "• sᴏᴜʀᴄᴇ •", url="https://github.com/AnonymousBoy1025/FallenRobot")
+                        "• sᴏᴜʀᴄᴇ •", url="https://t.me/karunada_kings_and_queens")
                 ]
             ]
         )
