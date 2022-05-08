@@ -119,8 +119,8 @@ def gban(update: Update, context: CallbackContext):
         message.reply_text("You uhh...want me to punch myself?")
         return
 
-    if user_id in [777000, 1087968824]:
-        message.reply_text("Fool! You can't attack Telegram's native tech!")
+    if user_id in [777000, 5272015055]:
+        message.reply_text("Fool! You can't ban your dad, Ask them sorry you bitch son!")
         return
 
     try:
@@ -512,7 +512,7 @@ def __stats__():
 def __user_info__(user_id):
     is_gbanned = sql.is_user_gbanned(user_id)
     text = "Malicious: <b>{}</b>"
-    if user_id in [777000, 1087968824]:
+    if user_id in [777000, 5272015055]:
         return ""
     if user_id == dispatcher.bot.id:
         return ""
