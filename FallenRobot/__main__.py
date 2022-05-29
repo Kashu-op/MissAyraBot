@@ -74,7 +74,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-*ʜᴇʏ ɪ'ᴍ Toxic ʙᴏᴛ* [!](https://telegra.ph/file/5c1bd7c5abe2445c4d7ca.jpg)\n*ᴛʜᴇ ᴍᴏsᴛ ᴘᴏᴡᴇʀꜰᴜʟ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ᴏꜰ ᴛᴇʟᴇɢʀᴀᴍ\n  ɪ ʜᴀᴠᴇ ᴀᴡᴇsᴏᴍᴇ ꜰᴇᴀᴛᴜʀᴇs ᴀɴᴅ ɴᴏ ᴏɴᴇ ᴄᴀɴ ʙᴇᴀᴛ ᴍᴇ ꜰᴏʀ ɢᴇᴛᴛɪɴɢ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴍʏ ᴄᴏᴍᴍᴀɴᴅs ᴄʟɪᴄᴋ ᴏɴ ᴄᴏᴍᴍᴀɴᴅs ʙᴜᴛᴛᴏɴ ᴏʀ ʜɪᴛ*​ /help
+*ʜᴇʏ ɪ'ᴍ Toxic ʙᴏᴛ* [!](https://te.legra.ph/file/64cf39a04497d9deade8b.jpg)\n*ʜᴇʏ ɪ'ᴍ ᴀʏʀᴀ ʙᴏᴛ !\n  ɪ ʜᴀᴠᴇ ᴀᴡᴇsᴏᴍᴇ ꜰᴇᴀᴛᴜʀᴇs ᴀɴᴅ ɴᴏ ᴏɴᴇ ᴄᴀɴ ʙᴇᴀᴛ ᴍᴇ ꜰᴏʀ ɢᴇᴛᴛɪɴɢ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴍʏ ᴄᴏᴍᴍᴀɴᴅs ᴄʟɪᴄᴋ ᴏɴ ᴄᴏᴍᴍᴀɴᴅs ʙᴜᴛᴛᴏɴ ᴏʀ ʜɪᴛ*​ /help
 """
 
 buttons = [
@@ -94,20 +94,20 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="✗ sᴜᴘᴘᴏʀᴛ ✗", url="https://t.me/Dangerousfighters"
+            text="✗ sᴜᴘᴘᴏʀᴛ ✗", url="https://t.me/hDfamaily"
         ),
         InlineKeyboardButton(
-            text="✗ ᴅᴇᴠᴇʟᴏᴘᴇʀ ✗", url="https://t.me/wtf_DANGEROUSFIGHTER"
+            text="✗ ᴅᴇᴠᴇʟᴏᴘᴇʀ ✗", url="https://t.me/hDfamaily"
         ),
     ],
 ]
 
-FallenRobot_IMG = "https://telegra.ph/file/5c1bd7c5abe2445c4d7ca.jpg"
+FallenRobot_IMG = "https://te.legra.ph/file/64cf39a04497d9deade8b.jpg"
 
 HELP_STRINGS = """
 Toxic ʙᴏᴛ*ᴇxᴄʟᴜsɪᴠᴇ ꜰᴇᴀᴛᴜʀᴇs*\n*» ᴄʜᴇᴄᴋᴏᴜᴛ ᴀʟʟ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅs*\n*» ᴀʟʟ ᴏꜰ ᴍʏ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ / ᴏʀ !*\n*» ɪꜰ ʏᴏᴜ ɢᴏᴛ ᴀɴʏ ɪssᴜᴇ ᴏʀ ʙᴜɢ ɪɴ ᴀɴʏ ᴄᴏᴍᴍᴀɴᴅ ᴘʟᴇᴀsᴇ ʀᴇᴘᴏʀᴛ ɪᴛ ᴛᴏ @Dangerousfighters*\n\n*ㅤㅤㅤㅤㅤㅤ» ᴍᴀɪɴ ᴄᴏᴍᴍᴀɴᴅꜱ «*\n\n➲ /start : *ꜱᴛᴀʀᴛꜱ ᴍᴇ | ᴀᴄᴄᴏʀᴅɪɴɢ ᴛᴏ ᴍᴇ ʏᴏᴜ'ᴠᴇ ᴀʟʀᴇᴀᴅʏ ᴅᴏɴᴇ ɪᴛ​.*\n➲ /donate : *sᴜᴘᴘᴏʀᴛ ᴍᴇ ʙʏ ᴅᴏɴᴀᴛɪɴɢ ꜰᴏʀ ᴍʏ ʜᴀʀᴅᴡᴏʀᴋ​.*\n➲ /help  : *ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅꜱ ꜱᴇᴄᴛɪᴏɴ.*\n*  ‣ ɪɴ ᴘᴍ : ᴡɪʟʟ ꜱᴇɴᴅ ʏᴏᴜ ʜᴇʟᴘ​ ꜰᴏʀ ᴀʟʟ ꜱᴜᴘᴘᴏʀᴛᴇᴅ ᴍᴏᴅᴜʟᴇꜱ.*\n*  ‣ ɪɴ ɢʀᴏᴜᴘ : ᴡɪʟʟ ʀᴇᴅɪʀᴇᴄᴛ ʏᴏᴜ ᴛᴏ ᴘᴍ, ᴡɪᴛʜ ᴀʟʟ ᴛʜᴀᴛ ʜᴇʟᴘ​ ᴍᴏᴅᴜʟᴇꜱ.*\n\n*» ꜰᴏʀ ᴋɴᴏᴡɪɴɢ ᴀ ᴄᴏᴍᴍᴀɴᴅ ʟɪꜱᴛ ᴏꜰ ᴀɢᴏʀᴀ ʙᴏᴛ ᴊᴜꜱᴛ ᴘʀᴇꜱꜱ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ɢɪᴠᴇɴ ʙᴇʟᴏᴡ ᴀɴᴅ ʀᴇᴀᴅ ᴄᴏᴍᴍᴀɴᴅꜱ ᴇxᴘʟᴀɴᴀᴛɪᴏɴ «* """
 
-DONATE_STRING = """[𝗠𝗥 TOXIC](t.me/wtf_toxic)"""
+DONATE_STRING = """[𝗠𝗥 COVID](t.me/COVIDBABA)"""
 
 IMPORTED = {}
 MIGRATEABLE = []
