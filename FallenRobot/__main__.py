@@ -74,7 +74,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-*ʜᴇʏ ɪ'ᴍ Toxic ʙᴏᴛ* [!](https://te.legra.ph/file/64cf39a04497d9deade8b.jpg)\n*ʜᴇʏ ɪ'ᴍ ᴀʏʀᴀ ʙᴏᴛ !\n  ɪ ʜᴀᴠᴇ ᴀᴡᴇsᴏᴍᴇ ꜰᴇᴀᴛᴜʀᴇs ᴀɴᴅ ɴᴏ ᴏɴᴇ ᴄᴀɴ ʙᴇᴀᴛ ᴍᴇ ꜰᴏʀ ɢᴇᴛᴛɪɴɢ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴍʏ ᴄᴏᴍᴍᴀɴᴅs ᴄʟɪᴄᴋ ᴏɴ ᴄᴏᴍᴍᴀɴᴅs ʙᴜᴛᴛᴏɴ ᴏʀ ʜɪᴛ*​ /help
+*ʜᴇʏ ɪ'ᴍ ᴀʏʀᴀ ʙᴏᴛ !* [!](https://te.legra.ph/file/64cf39a04497d9deade8b.jpg)\n*ᴛʜᴇ ᴍᴏsᴛ ᴘᴏᴡᴇʀꜰᴜʟ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ᴏꜰ ᴛᴇʟᴇɢʀᴀᴍ\n  ɪ ʜᴀᴠᴇ ᴀᴡᴇsᴏᴍᴇ ꜰᴇᴀᴛᴜʀᴇs ᴀɴᴅ ɴᴏ ᴏɴᴇ ᴄᴀɴ ʙᴇᴀᴛ ᴍᴇ ꜰᴏʀ ɢᴇᴛᴛɪɴɢ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴍʏ ᴄᴏᴍᴍᴀɴᴅs ᴄʟɪᴄᴋ ᴏɴ ᴄᴏᴍᴍᴀɴᴅs ʙᴜᴛᴛᴏɴ ᴏʀ ʜɪᴛ*​ /help
 """
 
 buttons = [
@@ -88,7 +88,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="✗ ᴀʙᴏᴜᴛ ᴍᴇ​​ ✗", callback_data="Agora_"),
+            text="✗ ᴀʙᴏᴜᴛ ᴍᴇ​​ ✗", url="https://t.me/ABOUTCOVIDBABA"),
         InlineKeyboardButton(
             text="✗ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ✗", callback_data="source_"),
     ],
@@ -97,7 +97,7 @@ buttons = [
             text="✗ sᴜᴘᴘᴏʀᴛ ✗", url="https://t.me/hDfamaily"
         ),
         InlineKeyboardButton(
-            text="✗ ᴅᴇᴠᴇʟᴏᴘᴇʀ ✗", url="https://t.me/hDfamaily"
+            text="✗ ᴅᴇᴠᴇʟᴏᴘᴇʀ ✗", url="https://t.me/COVIDBABA"
         ),
     ],
 ]
