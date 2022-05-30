@@ -1,7 +1,7 @@
 {
       "name": "Ayra Bot",
       "description": "Ayra Group Management Bot.",
-      "logo": "https://telegra.ph/file/5c1bd7c5abe2445c4d7ca.jpg",
+      "logo": "https://te.legra.ph/file/64cf39a04497d9deade8b.jpg",
       "keywords": [
          "telegram",
          "sexy",
@@ -9,7 +9,7 @@
          "manager",
          "Fallen"
       ],   
-   "repository": "https://github.com/wtf_toxic/bot",
+   "repository": "https://github.com/covidsanki/Ayra",
    "addons": [
       {
          "options": {
