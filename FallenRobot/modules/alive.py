@@ -11,13 +11,17 @@ from FallenRobot import telethn as tbot
 
 
 PHOTO = [
-    "https://te.legra.ph/file/64cf39a04497d9deade8b.jpg",
+    "https://te.legra.ph/file/d297b40e9b13f1b5f81fb.jpg",
+    "https://te.legra.ph/file/5f9c68ee2543653a4a948.jpg",
+    "https://te.legra.ph/file/2ecaca9856d4295324acd.jpg",
+    "https://te.legra.ph/file/9f45226e80933720bc7cc.jpg",
+    "https://te.legra.ph/file/e4380a904d6edd9b68a4d.jpg",
 ]
 
 @register(pattern=("/alive"))
 async def awake(event):
   TEXT = f"**ʜᴇʏ​ [{event.sender.first_name}](tg://user?id={event.sender.id}),\n\nɪ ᴀᴍ ᴀʏʀᴀ ʙᴏᴛ​~🕉️**\n━━━━━━━━━━━━━━━━━━━\n\n"
-  TEXT += f"» **ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ : [KASHYAP](https://t.me/KASHYAP_IS_PRO)** \n\n"
+  TEXT += f"» **ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ : [COVID](https://t.me/COVIDBABA)** \n\n"
   TEXT += f"» **ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ :** `{telever}` \n\n"
   TEXT += f"» **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{tlhver}` \n\n"
   TEXT += f"» **ᴘʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ :** `{pyrover}` \n━━━━━━━━━━━━━━━━━\n\n"
