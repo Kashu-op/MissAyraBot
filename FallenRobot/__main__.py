@@ -90,7 +90,7 @@ buttons = [
         InlineKeyboardButton(
             text="✗ ᴀʙᴏᴜᴛ ᴍᴇ​​ ✗", url="https://t.me/ABOUTCOVIDBABA"),
 ##        ##InlineKeyboardButton(
-            text="✗ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ✗", callback_data="source_"),
+##            ##text="✗ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ✗", callback_data="source_"),
     ],
     [
         InlineKeyboardButton(
