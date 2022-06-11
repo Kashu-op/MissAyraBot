@@ -33,8 +33,9 @@ missayra@arch:~$ cp sample_config.py config.py
 <h2 align="center"> 
    ⇝ Run Directly ⇜
 </h2>
-
-
+```console
+missayra@arch:~$ python3 -m FallenRobot
+```
 -----------
 
 <details>
