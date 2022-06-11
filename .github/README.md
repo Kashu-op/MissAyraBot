@@ -21,7 +21,7 @@
 </h2>
 
 ```console
-missayra@arch~$ git clone https://github.com/Kashu-op/MissAyraBot
+missayra@arch:~$ git clone https://github.com/Kashu-op/MissAyraBot
 missayra@arch:~$ cd MissAyraBot
 missayra@arch:~$ pip3 install -U -r requirements.txt
 missayra@arch:~$ cp sample_config.py config.py
