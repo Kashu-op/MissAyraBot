@@ -26,13 +26,10 @@ missayra@arch:~$ cd MissAyraBot
 missayra@arch:~$ pip3 install -U -r requirements.txt
 missayra@arch:~$ cp sample_config.py config.py
 ```
-<h3 align="center"> 
-    Edit <b>config.py</b> with your own values
-</h3>
-
 <h2 align="center"> 
    ⇝ Run Directly ⇜
 </h2>
+
 ```console
 missayra@arch:~$ python3 -m FallenRobot
 ```
